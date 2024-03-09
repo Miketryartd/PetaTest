@@ -111,6 +111,9 @@ gap:  0.1rem;
 
 /* media queries*/
 @media screen and (min-width:300px) and (max-width:390px){
+    body{
+        zoom: 0.6;
+    }
     .navigations li a{
         font-size: 3rem;
     }
@@ -159,6 +162,9 @@ gap:  0.1rem;
 }
 
 @media screen and (min-width:391px) and (max-width:465px){
+     body{
+        zoom: 0.8;
+    }
     .navigations li a{
         font-size: 3rem;
     }
